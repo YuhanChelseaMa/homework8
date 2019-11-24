@@ -1,4 +1,4 @@
-$("form").submit(function( event ) {
+$("form").submit(function(event) {
     var standing=false;
     var fruit=false;
     $("input[name='fruit']").each(function(){
